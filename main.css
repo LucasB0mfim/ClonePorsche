@@ -235,6 +235,10 @@ video {
     backdrop-filter: blur(20px);
 }
 
+.descubra button:hover {
+    background-color: #cccccc27;
+}
+
 .descubra button a {
     text-decoration: none;
     list-style: none;
