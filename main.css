@@ -481,11 +481,11 @@ video {
     z-index: 0;
     width: 800px;
     right: 0;
-    top: 520%;
+    top: 500%;
 }
 
 .texto {
     position: absolute;
     z-index: 1;
-    top: 517%;
+    top: 505%;
 }
