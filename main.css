@@ -561,11 +561,8 @@ video {
         left: -120px;
     }
     #porscheFundo {
-        position: absolute;
-        z-index: 0;
         width: 300px;
-        right: 0;
-        top: 730%;
+        top: 125%;
     }
     .texto {
         top: 840%;
