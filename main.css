@@ -544,19 +544,24 @@ video {
         bottom: 100px;
     }
     #carro1,
-    #carro2,
     #carro3,
     #carro4,
     #carro5,
     #carro6 {
         left: 0;
     }
+    #mobileErro {
+        margin-right: 4px;
+    }
+    #carro2 {
+        left: -120px;
+    }
     #porscheFundo {
         position: absolute;
         z-index: 0;
         width: 300px;
         right: 0;
-        top: 810%;
+        top: 730%;
     }
     .texto {
         top: 840%;
@@ -607,12 +612,13 @@ video {
         right: 10%;
     }
     header h1 {
-        margin-left: 25%;
+        margin-left: 28%;
     }
     .menuInteiro h6 {
         display: none;
     }
     .descubra {
         left: 2%;
+        top: 8%;
     }
 }
