@@ -368,7 +368,7 @@ video {
 
 .novidades {
     margin-bottom: 130px;
-    margin-top: 790px;
+    margin-top: 500px;
 }
 
 .novidades .card {
@@ -465,10 +465,10 @@ video {
 }
 
 .encontreSeuPorsche {
+    position: relative;
     margin-top: 100px;
     margin-left: 100px;
-    max-width: 900px;
-    width: 100%;
+    max-width: 2100px;
     margin: 0 auto;
 }
 
@@ -485,13 +485,17 @@ video {
     z-index: 0;
     width: 800px;
     right: 0;
-    top: 485%;
+    top: 0%;
 }
 
 .texto {
-    position: absolute;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
     z-index: 1;
     top: 490%;
+    left: 0;
 }
 
 @media screen and (max-width: 1150px) {
