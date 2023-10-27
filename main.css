@@ -493,3 +493,126 @@ video {
     z-index: 1;
     top: 490%;
 }
+
+@media screen and (max-width: 1150px) {
+    .conteiner-card .row,
+    .modelosDeCarros .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card {
+        margin-bottom: 10px;
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .descubra {
+        top: 10%;
+    }
+    .descubra h2 {
+        font-size: 30px;
+    }
+    .descubra button {
+        font-size: 10px;
+        margin-top: 5px;
+        padding: 10px;
+    }
+    .col-4,
+    .col-md-6 {
+        width: 300px;
+        height: 250px;
+        padding: 0;
+        margin: 50px auto;
+    }
+    .col-md-6 {
+        margin-bottom: 320px;
+    }
+    .btnBanner {
+        flex-direction: column;
+        bottom: 18px;
+        width: 90%;
+        left: 14px;
+    }
+    #todosModelos {
+        margin: 0;
+        margin-top: 5px;
+    }
+    .descricaoBanner p {
+        bottom: 100px;
+    }
+    #carro1,
+    #carro2,
+    #carro3,
+    #carro4,
+    #carro5,
+    #carro6 {
+        left: 0;
+    }
+    #porscheFundo {
+        position: absolute;
+        z-index: 0;
+        width: 300px;
+        right: 0;
+        top: 810%;
+    }
+    .texto {
+        top: 840%;
+    }
+    .texto {
+        position: relative;
+        margin-top: 100px;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .encontreSeuPorsche h2 {
+        font-size: 20px;
+    }
+    .encontreSeuPorsche input {
+        width: 220px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        outline: none;
+    }
+    .novidades {
+        margin-bottom: 20px;
+        margin-top: 350px;
+    }
+    .conteiner-card .row .col-4 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #descubraCarros1,
+    #descubraCarros2,
+    #descubraCarros3 {
+        left: 0;
+    }
+    .fim {
+        margin-top: 0;
+    }
+    .modelosDeCarros h2 {
+        margin: 50px 0 0 0;
+    }
+    .conteiner {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: 10px;
+        left: 2%;
+        right: 10%;
+    }
+    header h1 {
+        margin-left: 25%;
+    }
+    .menuInteiro h6 {
+        display: none;
+    }
+    .descubra {
+        left: 2%;
+    }
+}
