@@ -1,0 +1,439 @@
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "porsche";
+    src: url("911porschav3.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "altissimoMedium";
+    src: url("FontsFree-Net-aa3-6.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.branco {
+    color: #fff;
+}
+
+.porsche {
+    font-family: "porsche";
+    font-weight: lighter;
+}
+
+.conteiner-flex {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    right: 10%;
+}
+
+.menu {
+    width: 18px;
+    cursor: pointer;
+}
+
+.menu span {
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin-bottom: 4px;
+    background-color: #fff;
+}
+
+header h1 {
+    margin-left: 39.8%;
+}
+
+header h6 {
+    margin-top: 7%;
+}
+
+.comeco {
+    max-width: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+}
+
+.menuInteiro {
+    position: absolute;
+    z-index: 1;
+}
+
+.modal-body {
+    height: 100vh;
+}
+
+.modal-dialog {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    animation: modalAnimator .3s linear;
+}
+
+@keyframes modalAnimator {
+    from {
+        left: -500px
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.col-md-2 {
+    width: 400px;
+}
+
+.col-md-2 span {
+    position: absolute;
+    right: 48%;
+}
+
+.col-md-2 h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 20px;
+    width: 300px;
+}
+
+.col-md-2 h2:hover {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.marcado {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.apagar {
+    display: none;
+}
+
+#carros img {
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#carros img:hover {
+    background-color: #d6d6d6;
+}
+
+.textoPadrao {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.textoPadrao:hover {
+    background-color: #d6d6d6;
+}
+
+.col-md-9 {
+    width: 400px;
+    padding-left: 50px;
+    background-color: #ccc;
+}
+
+.modal-content {
+    width: 650px;
+}
+
+.col-md-1 {
+    background-color: #ccc;
+}
+
+#porscheCenter input {
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 2px;
+    height: 40px;
+    width: 250px;
+    font-size: 12px;
+    padding-left: 5px;
+    outline: none;
+}
+
+#porscheCenter button {
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 2px;
+    height: 40px;
+    width: 250px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+#porscheCenterTexto {
+    margin-left: 50px;
+}
+
+#porscheCenter button:hover {
+    background-color: #b4b4b4;
+}
+
+#closeModal {
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    position: absolute;
+    left: 140%;
+    top: 2%;
+}
+
+#closeModal:hover {
+    border-color: #cccccc38;
+    background-color: #cccccc38;
+}
+
+.descubra {
+    position: absolute;
+    bottom: 16.8%;
+    left: 10%;
+}
+
+.descubra h2 {
+    font-size: 90px;
+}
+
+.descubra button {
+    font-size: 15px;
+    padding: 15px 25px 15px 25px;
+    margin-top: 25px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    backdrop-filter: blur(20px);
+}
+
+.descubra button a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.col-4 .card {
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.col-4 .card img {
+    width: 450px;
+    cursor: pointer;
+    filter: brightness(50%);
+    transition: 0.3s linear;
+}
+
+.col-4 .card:hover img {
+    transform: scale(1.1);
+}
+
+
+.descricao {
+    font-size: 13px;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.descricao span {
+    margin-left: 90px;
+}
+
+.conteiner-card {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.modelos h2 {
+    margin-top: 170px;
+}
+
+.modelos {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.modelosDeCarros h2 {
+    margin-bottom: 80px;
+}
+
+.modelosDeCarros .card {
+    border-radius: 10px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.modelosDeCarros .card img {
+    position: absolute;
+    z-index: 0;
+    left: -100px;
+    width: 900px;
+    filter: brightness(50%);
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.modelosDeCarros .card:hover img {
+    transform: scale(1.1);
+}
+
+.modelosDeCarros {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.descricaoBanner p {
+    position: absolute;
+    z-index: 1;
+    bottom: 70px;
+    font-family: "altissimoMedium";
+}
+
+.btnBanner {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    bottom: 29px;
+}
+
+#conf {
+    color: #000;
+    font-weight: bolder;
+    font-size: 12px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 10px 16px 10px 16px;
+}
+
+#erro {
+    margin-right: 1px;
+}
+
+#todosModelos {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 12px;
+    background-color: transparent;
+    border: 2px solid;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px 16px 10px 16px;
+    margin-left: 7px;
+}
+
+#todosModelos:hover {
+    backdrop-filter: blur(50px);
+    background-color: #53535350;
+}
+
+.novidades {
+    margin-bottom: 130px;
+    margin-top: 700px;
+}
+
+.novidades .card {
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.novidades .card img {
+    width: 450px;
+    cursor: pointer;
+    filter: brightness(50%);
+    transition: 0.3s linear;
+}
+
+.novidades .card:hover img {
+    transform: scale(1.1);
+}
+
+.novidades .descricao {
+    font-size: 13px;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.novidades .descricao span {
+    margin-left: 130px;
+}
+
+.novidades .descricao .spanMenor {
+    margin-left: 50px;
+}
+
+.fim {
+    color: #fff;
+    background-color: #000;
+    margin-top: 100px;
+}
+
+.encontreSeuPorsche {
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.encontreSeuPorsche input {
+    width: 450px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#porscheFundo {
+    position: absolute;
+    z-index: 0;
+    width: 800px;
+    right: 0;
+    top: 502%;
+}
+
+.texto {
+    position: absolute;
+    z-index: 1;
+}

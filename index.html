@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche Brazil - Dr. ing. hc. F Porsche AG</title>
+    <link rel="shortcut icon" type="imagex/png" href="./icons/icon-porsche.png" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <section class="comeco">
+        <header>
+            <div class="conteiner conteiner-flex">
+                <div class="conteiner-flex menuInteiro">
+                    <div class="menu" data-bs-toggle="modal" data-bs-target="#listaDeCarros">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <h6 class="fw-lighter ms-2 branco">Menu</h6>
+                </div>
+                <h1 class="porsche branco fs-3">Porsche</h1>
+            </div>
+        </header>
+                
+        <video autoplay muted loop>
+            <source src="./video/NovoVideoCarroPorsche.mp4" />
+        </video>
+
+        <div class="descubra">
+            <h2 class="branco">F<span class="altissimoMedium branco">urther</br>together.</span></h2>
+            <button type="button" id="btnDescubra" class="branco"><a href="https://ebaconline.com.br/" target="_blank">Descubra o Cayenne S E-Hybrid</a></button>
+        </div>
+    
+        <div class="modal" data-bs-backdrop="static" id="listaDeCarros">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body d-flex">
+                        <div class="col-md-2">
+                            <div class="row justify-content-center mt-5 carros"><h2>Modelos<span class="fw-lighter">></span></h2></div>
+                            <div class="row justify-content-center aconselhamento"><h2>Aconselhamento<span class="fw-lighter">></span></h2></div>
+                            <div class="row justify-content-center servicos"><h2>Serviços<span class="fw-lighter">></span></h2></div>
+                            <div class="row justify-content-center experiencia"><h2>Experiência<span class="fw-lighter">></span></h2></div>
+                            <div class="row justify-content-center porscheCenter"><h2>Porsche Center<span class="fw-lighter">></span></h2></div>
+                        </div>
+                        <div class="col-md-9 text-center">
+                            <div id="carros">
+                                <img src="https://nav.porsche.com/00BC524/series-assets/1360/718.webp" class="mt-5" />
+                                <img src="https://nav.porsche.com/00BC524/series-assets/1360/718.webp" />
+                                <img src="https://nav.porsche.com/00BC524/series-assets/1360/718.webp" />
+                                <img src="https://nav.porsche.com/00BC524/series-assets/1360/718.webp" />
+                                <img src="https://nav.porsche.com/00BC524/series-assets/1360/718.webp" />
+                            </div>
+                            <div id="aconselhamento" class="apagar">
+                                <h5 class="textoPadrao mt-5">Configurar</h5>
+                                <h5 class="textoPadrao">Comparar modelos</h5>
+                                <h5 class="textoPadrao">Veículos Seminovos</h5>
+                                <h5 class="textoPadrao">Financial Services</h5>
+                                <h5 class="textoPadrao">E-Mobility & E-Performance</h5>
+                                <h5 class="textoPadrao">Tequipment - Accesorios Originales</h5>
+                            </div>
+                            <div id="servicos" class="apagar">
+                                <h5 class="textoPadrao mt-5">Manutenção & Serviço</h5>
+                                <h5 class="textoPadrao">Exclusive Manufaktur - Personalizar Veículos</h5>
+                                <h5 class="textoPadrao">Classic - Manutenção & Peças</h5>
+                                <h5 class="textoPadrao">Approved - Garantia & Veículos Seminovos</h5>
+                                <h5 class="textoPadrao">E-Mobility & E-Performance</h5>
+                                <h5 class="textoPadrao">Driver's Selection - Loja Virtual</h5>
+                            </div>
+                            <div id="experiencia" class="apagar">
+                                <h5 class="textoPadrao mt-5">Motorsport</h5>
+                                <h5 class="textoPadrao">Porsche Experience - Cursos & Viagens</h5>
+                                <h5 class="textoPadrao">Clubes Porsche</h5>
+                                <h5 class="textoPadrao">Golf</h5>
+                                <h5 class="textoPadrao">Christophorus Magazine</h5>
+                                <h5 class="textoPadrao">Visite o Museu</h5>
+                            </div>
+                            <div id="porscheCenter" class="apagar">
+                                <input type="text" placeholder="Código postal ou Cidade:" id="cpf" class="mt-5" required />
+                                <h6 class="d-flex justify-content-start mt-3 fw-lighter" id="porscheCenterTexto">ou</h6>
+                                <button type="button" id="localizacao"><img src="./crosshair.svg" class="fs-5 me-1"/>Utilizar localização atual</button>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <button type="button" id="closeModal">X</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="modelos">
+        <article>
+            <div class="conteiner-card">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./imagens/banner1.webp" />
+                            <div class="descricao">
+                                <p class="branco fw-bold">Estações de Recarga.</p>
+                                <span class="branco fw-bold">></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./imagens/banner2.jpg" />
+                            <div class="descricao">
+                                <p class="branco fw-bold">Taycan Cross Turismo.</p>
+                                <span class="branco fw-bold">></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./imagens/banner3.webp" />
+                            <div class="descricao">
+                                <p class="branco fw-bold">O novo 911 S/T.</p>
+                                <span class="branco fw-bold">></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="modelosDeCarros">
+            <h2 class="fw-bold fs-2 text-center">Modelos</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./imagens/711car.webp" />
+                            <div class="descricaoBanner branco ms-4 me-4 fs-5">
+                                <p>dois lugares com alta dinamica de conducao graças ao seu motor Central.</p>
+                                <div class="btnBanner">
+                                    <button type="button" id="conf">Configurar o 788</button>
+                                    <button type="button" id="todosModelos">Todos os modelos 788</button>
+                                </div>
+                            </div>
+                            <img src="./imagens/711car.webp" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./imagens/711car.webp" />
+                            <div class="descricaoBanner branco ms-4 me-4 fs-5">
+                                <p>iconico carro esportivo com motor montado na traseira e desempenho superior.</p>
+                                <div class="btnBanner">
+                                    <button type="button" id="conf">Configurar o 911</button>
+                                    <button type="button" id="todosModelos">Todos os modelos 911</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./imagens/711car.webp" />
+                            <div class="descricaoBanner branco ms-4 me-4 fs-5">
+                                <p>sedan esportivo totalmente eletrico com porta-malas dianteiro e traseiro.</p>
+                                <div class="btnBanner">
+                                    <button type="button" id="conf">Configurar o Taycan</button>
+                                    <button type="button" id="todosModelos">Todos os modelos Taycan</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./imagens/711car.webp" />
+                            <div class="descricaoBanner branco ms-4 me-4 fs-5">
+                                <p>sedan esportivo de luxo com quatro lugares.</p>
+                                <div class="btnBanner">
+                                    <button type="button" id="conf">Configurar o Panamera</button>
+                                    <button type="button" id="todosModelos">Todos os modelos Panamera</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./imagens/711car.webp" />
+                            <div class="descricaoBanner branco ms-4 me-4 fs-5">
+                                <p>suv compacto com alta versatilidade.</p>
+                                <div class="btnBanner">
+                                    <button type="button" id="conf">Configurar o Macan</button>
+                                    <button type="button" id="todosModelos">Todos os modelos Macan</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./imagens/711car.webp" />
+                            <div class="descricaoBanner branco ms-4 me-4 fs-5">
+                                <p id="erro">suv com até 5 assentos, mas antes de tudo, um carro esportivo.</p>
+                                <div class="btnBanner">
+                                    <button type="button" id="conf">Configurar o Cayene</button>
+                                    <button type="button" id="todosModelos">Todos os modelos Cayene</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </article>
+    </section>
+
+    <section class="encontreSeuPorsche">
+            <div class="texto">
+                <h2 class="fw-bold">Encontre seu Porsche novo ou</br>seminovo.</h2>
+                <p class="mb-5 ">
+                    Ficou mais fácil encontrar o Porsche de seus sonhos. 
+                    Digite sua</br>localização e navegue pelas melhores ofertas 
+                    de carros disponí-</br>veis perto de você.
+                </p>
+                <p>Insira um local para sua busca</p>
+                <input type="text" placeholder="Digite a cidade ou o CEP" id="encontreSeuPorsche" required>
+            </div>
+            <img src="./imagens/CarrosDaPorsche.webp" id="porscheFundo"/>
+    </section>
+
+
+    <section class="novidades pb-5">
+        <h2 class="text-center mb-5 fw-bold">Descubra</h2>
+        <article>
+            <div class="conteiner-card">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./imagens/banner1.webp" />
+                            <div class="descricao">
+                                <p class="branco fw-bold">E-Performance.</p>
+                                <span class="branco fw-bold">></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./imagens/banner2.jpg" />
+                            <div class="descricao">
+                                <p class="branco fw-bold">Tequipment Sound & Design</p>
+                                <span class="spanMenor branco fw-bold">></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./imagens/banner3.webp" />
+                            <div class="descricao">
+                                <p class="branco fw-bold">Porsche Finder</p>
+                                <span class="branco fw-bold">></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="fim pt-5 pb-5">
+        <h1 class="porsche text-center">Porsche</h1>
+    </section>
+
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./jquery.mask.js"></script>
+</body>
+</html>
